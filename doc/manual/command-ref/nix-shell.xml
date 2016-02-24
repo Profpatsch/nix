@@ -249,10 +249,10 @@ Pan 0.139
 
 <refsection xml:id="ssec-nix-shell-shebang"><title>Use as a <literal>#!</literal>-interpreter</title>
 
-<para>You can use <command>nix-shell</command> as a script interpreter
-to allow scripts written in arbitrary languages to obtain their own
-dependencies via Nix. This is done by starting the script with the
-following lines:
+<para>You can use <command>nix-shell</command> as a script (shebang)
+interpreter to allow scripts written in arbitrary languages to obtain
+their own dependencies via Nix. This is done by starting the script
+with the following lines:
 
 <programlisting>
 #! /usr/bin/env nix-shell
